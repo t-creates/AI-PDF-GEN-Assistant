@@ -1,0 +1,96 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+.env
+.venv
+venv/
+env/
+ENV/
+my_env/
+*.sqlite3
+*.db
+*.log
+
+# ---- Virtual Environments ----
+/.micromamba/
+/.mamba/
+*.conda
+*.yaml
+*.lock
+
+# ---- Mac & OS Files ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+
+# ---- VS Code & Editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Flask / FastAPI / Local Server ----
+instance/
+*.pid
+*.sock
+
+# ---- Cache & Build ----
+build/
+dist/
+.eggs/
+*.manifest
+*.spec
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Temporary Files ----
+*.tmp
+*.bak
+*.old
+*.orig
+
+# ---- LangChain / Vector Stores ----
+chroma_db/
+chroma/
+vectorstore/
+index/
+data_store/
+*.faiss
+*.pkl
+
+# ---- PDF Uploads ----
+uploads/
+documents/
+*.pdf
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Secrets / Keys ----
+*.pem
+*.key
+*.crt
+*.json
+apikey.txt
+token.txt
+
+# ---- Docker ----
+Dockerfile~
+docker-compose.override.yml
+.env.docker
+*.tar
+
+# ---- Node / Frontend (if using React or frontend UI) ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+build/
+dist/
